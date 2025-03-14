@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BasuMultiClip</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>BasuMultiClip</h1>
+      <div class="actions">
+        <button id="clear-all" title="Clear All Clips">Clear All</button>
+        <div class="filter-dropdown">
+          <button id="filter-button">Filter</button>
+          <div class="filter-content" id="filter-options">
+            <a href="#" data-filter="all">All Clips</a>
+            <a href="#" data-filter="today">Today</a>
+            <a href="#" data-filter="yesterday">Yesterday</a>
+            <a href="#" data-filter="week">This Week</a>
+            <a href="#" data-filter="month">This Month</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search clips...">
+    </div>
+    
+    <div id="clips-container">
+      <!-- Clips will be added here dynamically -->
+      <div class="empty-state" id="empty-state">
+        <p>No clipboard items yet. Copy some text to get started!</p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/popup.js"></script>
+</body>
+</html> 
