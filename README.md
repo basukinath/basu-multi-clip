@@ -1,6 +1,6 @@
-# BasuMultiClip
+# Multiple Clipboard
 
-BasuMultiClip is a Chrome extension that enhances your clipboard experience by storing multiple copied texts, allowing you to access your clipboard history easily.
+Multiple Clipboard is a Chrome extension that enhances your clipboard experience by storing multiple copied texts, allowing you to access your clipboard history easily.
 
 ## Features
 
@@ -17,12 +17,12 @@ BasuMultiClip is a Chrome extension that enhances your clipboard experience by s
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top-right corner
 4. Click "Load unpacked" and select the folder containing this extension
-5. The BasuMultiClip extension should now be installed and visible in your Chrome toolbar
+5. The Multiple Clipboard extension should now be installed and visible in your Chrome toolbar
 
 ## How to Use
 
-1. **Copying Text**: Simply select text on any webpage and copy it (Ctrl+C or right-click > Copy). BasuMultiClip will automatically save it to your clipboard history.
-2. **Accessing Clipboard History**: Click on the BasuMultiClip icon in your Chrome toolbar to open the popup with your clipboard history.
+1. **Copying Text**: Simply select text on any webpage and copy it (Ctrl+C or right-click > Copy). Multiple Clipboard will automatically save it to your clipboard history.
+2. **Accessing Clipboard History**: Click on the Multiple Clipboard icon in your Chrome toolbar to open the popup with your clipboard history.
 3. **Searching**: Use the search box to find specific clipboard items.
 4. **Filtering**: Click the "Filter" button to filter items by date.
 5. **Copying Items**: Click the "Copy" button on any clipboard item to copy it back to your clipboard.
@@ -31,7 +31,7 @@ BasuMultiClip is a Chrome extension that enhances your clipboard experience by s
 
 ## Notes
 
-- The extension requires the "storage", "clipboardRead", and "clipboardWrite" permissions to function properly.
+- The extension requires the "storage", "clipboardRead", "clipboardWrite", and "activeTab" permissions to function properly.
 - Clipboard items are stored in your browser's local storage and are not sent to any external servers.
 
 ## Future Enhancements

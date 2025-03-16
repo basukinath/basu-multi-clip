@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "BasuMultiClip",
+  "name": "Multiple Clipboard",
   "version": "1.0",
   "description": "Store multiple clipboard items and access them later",
   "permissions": ["storage", "clipboardRead", "clipboardWrite", "contextMenus", "activeTab", "scripting", "tabs"],

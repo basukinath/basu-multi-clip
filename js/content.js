@@ -1,4 +1,4 @@
-// Content script for BasuMultiClip
+// Content script for Multiple Clipboard
 
 // Listen for copy events
 document.addEventListener('copy', function(e) {

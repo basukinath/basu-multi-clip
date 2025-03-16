@@ -1,4 +1,4 @@
-// Popup script for BasuMultiClip
+// Popup script for Multiple Clipboard
 
 document.addEventListener('DOMContentLoaded', function() {
   // DOM elements

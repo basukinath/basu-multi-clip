@@ -1,10 +1,10 @@
-// Background script for BasuMultiClip
+// Background script for Multiple Clipboard
 
 // Initialize context menu
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
-    id: "copy-to-basuclip",
-    title: "Copy to BasuMultiClip",
+    id: "copy-to-multiclip",
+    title: "Copy to Multiple Clipboard",
     contexts: ["selection"]
   });
   
@@ -25,7 +25,7 @@ function injectContentScriptIfNeeded(tabId) {
 
 // Handle context menu click
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-  if (info.menuItemId === "copy-to-basuclip" && info.selectionText) {
+  if (info.menuItemId === "copy-to-multiclip" && info.selectionText) {
     saveToClipboardHistory(info.selectionText);
   }
 });

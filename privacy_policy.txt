@@ -1,17 +1,17 @@
-PRIVACY POLICY FOR BASUMULTICLIP
+PRIVACY POLICY FOR MULTIPLE CLIPBOARD
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you use the BasuMultiClip Chrome extension.
+This Privacy Policy describes how your personal information is collected, used, and shared when you use the Multiple Clipboard Chrome extension.
 
 INFORMATION WE COLLECT
 
-BasuMultiClip is designed to enhance your clipboard experience by storing multiple copied texts. To provide this functionality, our extension collects and stores the following information:
+Multiple Clipboard is designed to enhance your clipboard experience by storing multiple copied texts. To provide this functionality, our extension collects and stores the following information:
 
 - Text content that you copy while browsing websites
 - Timestamps of when the text was copied
 
 HOW WE USE YOUR INFORMATION
 
-The information collected is used solely for the purpose of providing the core functionality of the BasuMultiClip extension:
+The information collected is used solely for the purpose of providing the core functionality of the Multiple Clipboard extension:
 
 - To store your clipboard history
 - To display your clipboard history when you open the extension popup
@@ -20,7 +20,7 @@ The information collected is used solely for the purpose of providing the core f
 
 LOCAL STORAGE
 
-All data collected by BasuMultiClip is stored locally on your device using Chrome's local storage API. The data never leaves your device and is not transmitted to any external servers or third parties.
+All data collected by Multiple Clipboard is stored locally on your device using Chrome's local storage API. The data never leaves your device and is not transmitted to any external servers or third parties.
 
 DATA RETENTION AND USER CONTROL
 
