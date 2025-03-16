@@ -1,4 +1,4 @@
-// Content script for Multiple Clipboard
+// Content script for CopyStack
 
 // Listen for copy events
 document.addEventListener('copy', function(e) {

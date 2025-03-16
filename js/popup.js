@@ -1,4 +1,4 @@
-// Popup script for Multiple Clipboard
+// Popup script for CopyStack
 
 document.addEventListener('DOMContentLoaded', function() {
   // DOM elements

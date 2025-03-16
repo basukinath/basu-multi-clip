@@ -1,10 +1,10 @@
-// Background script for Multiple Clipboard
+// Background script for CopyStack
 
 // Initialize context menu
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
-    id: "copy-to-multiclip",
-    title: "Copy to Multiple Clipboard",
+    id: "copy-to-stack",
+    title: "Copy to CopyStack",
     contexts: ["selection"]
   });
   
@@ -25,7 +25,7 @@ function injectContentScriptIfNeeded(tabId) {
 
 // Handle context menu click
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-  if (info.menuItemId === "copy-to-multiclip" && info.selectionText) {
+  if (info.menuItemId === "copy-to-stack" && info.selectionText) {
     saveToClipboardHistory(info.selectionText);
   }
 });
