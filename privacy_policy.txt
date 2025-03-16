@@ -1,0 +1,47 @@
+PRIVACY POLICY FOR BASUMULTICLIP
+
+This Privacy Policy describes how your personal information is collected, used, and shared when you use the BasuMultiClip Chrome extension.
+
+INFORMATION WE COLLECT
+
+BasuMultiClip is designed to enhance your clipboard experience by storing multiple copied texts. To provide this functionality, our extension collects and stores the following information:
+
+- Text content that you copy while browsing websites
+- Timestamps of when the text was copied
+
+HOW WE USE YOUR INFORMATION
+
+The information collected is used solely for the purpose of providing the core functionality of the BasuMultiClip extension:
+
+- To store your clipboard history
+- To display your clipboard history when you open the extension popup
+- To allow you to search through your clipboard history
+- To enable filtering of clipboard items by date
+
+LOCAL STORAGE
+
+All data collected by BasuMultiClip is stored locally on your device using Chrome's local storage API. The data never leaves your device and is not transmitted to any external servers or third parties.
+
+DATA RETENTION AND USER CONTROL
+
+Your clipboard history is retained in local storage until you choose to delete it. You have complete control over your data and can:
+
+- Delete individual clipboard items at any time
+- Clear your entire clipboard history with the "Clear All" button
+- Filter and manage your clipboard items as needed
+
+If you uninstall the extension, all stored clipboard data will be permanently deleted.
+
+THIRD-PARTY ACCESS
+
+We do not sell, trade, or otherwise transfer your clipboard data to any third parties. Your data remains exclusively on your device and under your control.
+
+CHANGES TO THIS PRIVACY POLICY
+
+We may update this privacy policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify users of any material changes by updating the "Last Updated" date at the bottom of this privacy policy.
+
+CONTACT US
+
+If you have any questions or concerns about this privacy policy or our data practices, please contact us at [Your Contact Email].
+
+Last Updated: [Current Date] 
