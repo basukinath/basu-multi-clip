@@ -7,21 +7,7 @@ chrome.runtime.onInstalled.addListener(() => {
     title: "Copy to CopyStack",
     contexts: ["selection"]
   });
-  
-  // Add a browser action listener to inject the content script when the extension icon is clicked
-  chrome.action.onClicked.addListener((tab) => {
-    // This will activate the extension for the current tab
-    injectContentScriptIfNeeded(tab.id);
-  });
 });
-
-// Function to inject the content script if it hasn't been injected already
-function injectContentScriptIfNeeded(tabId) {
-  chrome.scripting.executeScript({
-    target: { tabId: tabId },
-    files: ['js/content.js']
-  });
-}
 
 // Handle context menu click
 chrome.contextMenus.onClicked.addListener((info, tab) => {
@@ -68,18 +54,4 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     sendResponse({ status: "success" });
   }
   return true;
-});
-
-// Add a listener for when a tab is activated
-chrome.tabs.onActivated.addListener((activeInfo) => {
-  // Inject the content script into the newly activated tab
-  injectContentScriptIfNeeded(activeInfo.tabId);
-});
-
-// Add a listener for when a tab is updated (e.g., when a page loads)
-chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  // Only inject when the page is fully loaded
-  if (changeInfo.status === 'complete') {
-    injectContentScriptIfNeeded(tabId);
-  }
 }); 
